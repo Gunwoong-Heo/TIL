@@ -24,15 +24,14 @@ public void 중복_회원_예외() {
 }
 ~~~
 
-try catch 문으로 처리하기에는 코드가 길어지고, 가독성이 떨어진다.
+try catch 문으로 처리하기에는 코드가 길어지고, 가독성이 떨어진다. 
 이떄, org.junit.jupiter.api.Assertions 에서 제공하는 assertThrows 문을 사용하여, 예외를 검증할 수 있다.
 
 ~~~java
-assertThrows(IllegalStateException.class, () -> memberService.join(member2));
+IllegalStateException e = assertThrows(IllegalStateException.class, () -> memberService.join(member2));
+assertThat(e.getMessage()).isEqualTo("이미 존재하는 회원입니다.");
 ~~~
-assertThrows 문으로 try catch문을 대체한다.
-
-첫번째 parameter로 예외class를, 두번째 parameter에 람다식을 활용하여 메소드를 넘겨준다.
+assertThrows 문으로 try catch문을 대체한다. 첫번째 parameter로 예외class를, 두번째 parameter에 람다식을 활용하여 메소드를 넘겨준다.
 
 ![](./imgs/assertThrows.JPG)
 
