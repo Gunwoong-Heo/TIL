@@ -1,0 +1,1 @@
+- IntelliJ preferences 에서 gradle 검색 后 'build and run using' 과 'Run tests using' 을 모두 intelliJ로 바꿔준다 (build 속도 향상)
