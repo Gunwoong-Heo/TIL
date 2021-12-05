@@ -1,9 +1,10 @@
-- 파라미터 정보 보기 : `ctrl + p (command + p)`
+- 파라미터 정보 보기 : `ctrl p (command p)`
 - 줄 마무리 자동으로 : `ctrl shift enter (command shift enter)`
-- `alt+enter (option enter)`로 static import 를 사용하면 test 코드 작성시 `Assertions.assertThat` 에서 `Assertions` 생략가능
-- 변수가 선택 되었을때 `shift + F6` 으로 일괄변경 가능
+- `alt enter (option enter)`로 static import 를 사용하면 test 코드 작성시 `Assertions.assertThat` 에서 `Assertions` 생략가능
+- 변수가 선택 되었을때 `shift F6` 으로 일괄변경 가능
 - 우변이 완성 되었을때 `ctrl alt v (option command v)` 로 좌변 자동생성
 - 메소드로 변환할 부분 블록 지정 후에  `ctrl alt shift t (ctrl t)` 로 'refactor this'를 불러와서 'method extract' 기능으로 메소드 따로 분리 가능
 - 클래스에서 `ctrl shift t (command shift t)` 로 테스트 생성 (패키지까지 자동으로 생성해줌)
 - `shift f10 (ctrl r)` 누르면 이전에 실행했던 것을 그대로 실행함
-- inline 단축키(return시, 1라인으로 줄여줌) : `shift alt n (option command n)`
+- inline 단축키(return시, 1라인으로 줄여줌) : `ctrl alt n (option command n)`
+- recent files : `ctrl e (command e)`
