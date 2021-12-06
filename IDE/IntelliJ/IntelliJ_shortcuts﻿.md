@@ -8,3 +8,4 @@
 - `shift f10 (ctrl r)` 누르면 이전에 실행했던 것을 그대로 실행함
 - inline 단축키(return시, 1라인으로 줄여줌) : `ctrl alt n (option command n)`
 - recent files : `ctrl e (command e)`
+- Next Highlighted Error : `F2` (오류난 지점으로 바로 이동)
