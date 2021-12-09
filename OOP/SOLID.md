@@ -1,1 +1,0 @@
-// solid 정리하기 https://github.com/huisam/JinLearnedList
