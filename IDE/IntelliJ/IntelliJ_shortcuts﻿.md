@@ -9,3 +9,5 @@
 - inline 단축키(return시, 1라인으로 줄여줌) : `ctrl alt n (option command n)`
 - recent files : `ctrl e (command e)`
 - Next Highlighted Error : `F2` (오류난 지점으로 바로 이동)
+- Extract Method : `ctrl alt m (option command m)`
+- Navigate -> Go to Class `ctrl n (command o)` : 클래스 목록 보여줌.(동일 명령어 다시 한 번 입력시, 탐색 범위 확장 )
