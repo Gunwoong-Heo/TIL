@@ -49,7 +49,9 @@ getBeanDefinition 으로 bean에 대한 metaData 정보들을 조회할 수 있�
 
 테스트를 실행해보면 
 
-![](https://drive.google.com/uc?export=view&id=1H70nPZK3_7BCidIy7iLXfeFqCAkzdItZ)
+<!-- ![](https://drive.google.com/uc?export=view&id=1H70nPZK3_7BCidIy7iLXfeFqCAkzdItZ) -->
+![](/resources/imgs/checkBeanDefinition_1.JPG)
+
 
 위와 같이 AppConfig 클래스에서 등록한 빈과 스프링Container 내에 기본으로 등록된 bean을 확인할 수 있다.
 
@@ -75,7 +77,8 @@ AppConfig 클래스에서 등록한 빈만 확인하고 싶다면 아래와 같�
 
 출력해보면
 
-![](https://drive.google.com/uc?export=view&id=1kv3Jr4rjD6fQtC-qBzl8ZIYfVe0uuuLF)
+<!-- ![](https://drive.google.com/uc?export=view&id=1kv3Jr4rjD6fQtC-qBzl8ZIYfVe0uuuLF) -->
+![](/resources/imgs/checkBeanDefinition_2.JPG)
 
 AppConfig 클래스에서 등록한 빈만 선택적으로 확인할 수 있다.
 
