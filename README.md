@@ -1,3 +1,3 @@
 # DevLog 저장소
 
-(Gunwoong-Heo.tistory.com)
+Gunwoong-Heo.tistory.com
