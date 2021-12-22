@@ -33,7 +33,7 @@ assertThat(e.getMessage()).isEqualTo("이미 존재하는 회원입니다.");
 ~~~
 assertThrows 문으로 try catch문을 대체한다. 첫번째 parameter로 예외class를, 두번째 parameter에 람다식을 활용하여 메소드를 넘겨준다.
 
-![](imgs/assertThrows_1.JPG)
+![](./imgs/assertThrows_1.JPG)
 
 테스트 메소드 실행시 정상적으로 IllegalStateException 이 터지는 것을 검증할 수 있었다.
 
