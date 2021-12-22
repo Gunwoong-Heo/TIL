@@ -1,5 +1,4 @@
 # assertThrows로 예외 처리를 테스트 하는 방법 (JUNIT 5)
-[스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8) 를 학습하는 도중에 나온 테스트 방법 기록
 
 ~~~java
 @Test
@@ -37,7 +36,5 @@ assertThrows 문으로 try catch문을 대체한다. 첫번째 parameter로 예�
 
 테스트 메소드 실행시 정상적으로 IllegalStateException 이 터지는 것을 검증할 수 있었다.
 
-
-<!--
-![](https://drive.google.com/uc?export=view&id=)  
--->
+## 참고
+[스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8)
