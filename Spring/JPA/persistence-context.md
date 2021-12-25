@@ -167,7 +167,14 @@ tx.commit();
 
 ### 3) 트랜잭션을 지원하는 쓰기 지연 (transactional write-behind)
 
+
+![](imgs/persistence-context/2021-12-25-17-16-57.png)
+
+
+
 <br><br>
+
+
 
 ## 참고
 [자바 ORM 표준 JPA 프로그래밍 - 기본편](https://www.inflearn.com/course/ORM-JPA-Basic)
