@@ -170,7 +170,7 @@ tx.commit();
 
 ![](imgs/persistence-context/2021-12-25-17-16-57.png)
 
-
+![](imgs/persistence-context/2021-12-25-17-20-30.png)
 
 <br><br>
 
