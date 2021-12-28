@@ -59,9 +59,9 @@ update 같은 경우는 규모에 따라 DB 가 rock 이 걸려 버려서 서비
 * `precision,scale(DDL)` : BigDecimal 타입에서 사용.(BigInteger도 사용 가능) precision은 소수점을 포함한 전체 자릿수, scale은 소수의 자릿수. double, float 타입에는 적용되지 않으며, 아주 큰 숫자나 정밀하게 소수를 다뤄야 할때 사용.
 
 #### (1-2) @Enumerated
-1. `EnumType.ORDINAL` : enum 순서를 DB에 저장 (기본값)
-   * 실무에서는 **ORDINAL** 을 잘 쓰지 않는다. enum을 추가하거나 하게 되면 순서가 변경되어버리기 때문이다. -> 순서가 꼬여버린 상태로 DB에 데이터가 쌓이게 되면 추후에 해결하기 힘든 버그가 되어버림.
-2. `EnumType.STRING` : enum 이름을 DB에 저장
+* `EnumType.ORDINAL` : enum 순서를 DB에 저장 (기본값)
+  * 실무에서는 **ORDINAL** 을 잘 쓰지 않는다. enum을 추가하거나 하게 되면 순서가 변경되어버리기 때문이다. -> 순서가 꼬여버린 상태로 DB에 데이터가 쌓이게 되면 추후에 해결하기 힘든 버그가 되어버림.
+* `EnumType.STRING` : enum 이름을 DB에 저장
 
 #### (1-3) @Temporal
 * java 8 이후 버전으로 `LocalDate, LocalDateTime` 을 쓰게 된다면 `@Temporal`은 쓸 필요가 없다.
