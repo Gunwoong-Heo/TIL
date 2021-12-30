@@ -79,6 +79,7 @@
     Long findTeamId = findMember.getTeamId();
     Team findTeam = em.find(Team.class, findTeamId);
     ```
+
 * 객체를 테이블에 맞추어 데이터 중심으로 모델링하면, 협력 관계를 만들 수 없음.
   * 테이블은 외래 키로 조인을 사용해서 연관된 테이블을 찾는다.
   * 객체는 참조를 사용해서 연관된 객체를 찾는다.
@@ -91,24 +92,24 @@
 ## 2. 단방향 연관관계
 
 * 객체 지향 모델링 (객체의 참조와 테이블의 외래 키를 매핑)
-```java
-@Entity
-public class Member {
+    ```java
+    @Entity
+    public class Member {
 
-    @Id @GeneratedValue
-    private Long id;
+        @Id @GeneratedValue
+        private Long id;
 
-    @Column(name = "USERNAME", nullable = false)
-    private String username;
+        @Column(name = "USERNAME", nullable = false)
+        private String username;
 
-//    @Column(name = "TEAM_ID")
-//    private Long teamId;
+    //    @Column(name = "TEAM_ID")
+    //    private Long teamId;
 
-    @ManyToOne
-    @JoinColumn(name = "TEAM_ID")
-    private Team team;
-}
-```
+        @ManyToOne
+        @JoinColumn(name = "TEAM_ID")
+        private Team team;
+    }
+    ```
 
 * 객체 지향 모델링 (ORM 매핑)
 
