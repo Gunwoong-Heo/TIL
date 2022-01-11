@@ -132,7 +132,7 @@ public class Address {
 
     /*getter setter 생략*/
 }
-````
+```
 ```java
 @Embeddable
 public class Period {
@@ -187,6 +187,7 @@ tx.commit();
     ![](imgs/jpa-value-type/2022-01-01-16-37-39.png)
 
   * `@AttributeOverrides`, `@AttributeOverride`를 사용하여 컬럼명 속성을 재정의 할 수 있다.
+
     ```java
     public class Member {
         ...
