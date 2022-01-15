@@ -6,7 +6,7 @@
 - 메소드로 변환할 부분 블록 지정 후에  `ctrl t (ctrl alt shift t)` 로 'refactor this'를 불러와서 'method extract' 기능으로 메소드 따로 분리 가능
 - 클래스에서 `command shift t (ctrl shift t)` 로 테스트 생성 (패키지까지 자동으로 생성해줌)
 - `ctrl r (shift f10)` 누르면 이전에 실행했던 것을 그대로 실행함
-- inline 단축키(return시, 1라인으로 줄여줌) : `option command n (ctrl alt n)`
+- inline variable `option command n (ctrl alt n)` : 1라인으로 줄여줌
 - recent files : `command e (ctrl e)`
 - Next Highlighted Error : `F2` (오류난 지점으로 바로 이동)
 - Extract Method : `option command m (ctrl alt m)`
