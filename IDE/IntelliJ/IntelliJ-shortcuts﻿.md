@@ -1,5 +1,5 @@
 - 파라미터 정보 보기 : `command p (ctrl p)`
-- 줄 마무리 자동으로 : `command shift enter (ctrl shift enter)`
+- 줄 마무리 자동으로 : `shift command enter (ctrl shift enter)`
 - `option enter (alt enter)`로 static import 를 사용하면 test 코드 작성시 `Assertions.assertThat` 에서 `Assertions` 생략가능
 - 변수가 선택 되었을때 `shift F6` 으로 일괄변경 가능
 - 우변이 완성 되었을때 `option command v (ctrl alt v)` 로 좌변 자동생성
@@ -15,3 +15,6 @@
 - Navigate -> Go to Implementation `option command b (ctrl atl b)` : 현재 커서가 놓여져 있는 대상의 구현체 list를 보여줌.
 - Extend Selection `option ↑ (ctrl w)`
 - Contract Selection `option ↓ (ctrl shift w)`
+- Extract -> Parameter `option command p (ctrl alt p)`
+- Navigate -> Test Subject `shift command t (ctrl shift t)` : 테스트 페이지 <-> 일반 페이지
+- Toggle Case `shift command u (ctrl shift u)` : 대소문자 변경
