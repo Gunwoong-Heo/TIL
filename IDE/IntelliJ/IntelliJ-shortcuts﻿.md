@@ -10,6 +10,7 @@
 - recent files : `command e (ctrl e)`
 - Next Highlighted Error : `F2` (오류난 지점으로 바로 이동)
 - Extract Method : `option command m (ctrl alt m)`
+- Extract -> Parameter `option command p (ctrl alt p)`
 - Navigate -> Go to Class `command o (ctrl n)` : 클래스 목록 보여줌.(동일 명령어 다시 한 번 입력시, 탐색 범위 확장 )
 - Navigate -> File Structure `command f12 (ctrl f12)` : 현재 open된 파일의 구조를 보여줌.
 - Navigate -> Go to Implementation `option command b (ctrl atl b)` : 현재 커서가 놓여져 있는 대상의 구현체 list를 보여줌.
