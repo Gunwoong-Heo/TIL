@@ -19,3 +19,4 @@
 - Extract -> Parameter `option command p (ctrl alt p)`
 - Navigate -> Test Subject `shift command t (ctrl shift t)` : 테스트 페이지 <-> 일반 페이지
 - Toggle Case `shift command u (ctrl shift u)` : 대소문자 변경
+- Navigate -> File Structure `command f12 (ctrl f12)`
