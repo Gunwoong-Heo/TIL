@@ -20,3 +20,5 @@
 - Navigate -> Test Subject `shift command t (ctrl shift t)` : 테스트 페이지 <-> 일반 페이지
 - Toggle Case `shift command u (ctrl shift u)` : 대소문자 변경
 - Navigate -> File Structure `command f12 (ctrl f12)`
+- Move Statement Down `shift command up/down (ctrl shift up/down)` : 메소드 위치 변경
+- Hide All Windows `shift command f12 (ctrl shift f12)`
